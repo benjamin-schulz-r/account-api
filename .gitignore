@@ -1,0 +1,46 @@
+# .gitignore for Anypoint Code Builder project
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDE and editor settings
+/.vscode/
+/.idea/
+*.iml
+
+# Anypoint specific folders and files
+/.deployment/
+/.exchange/
+/.mvn/
+/.exchange_modules_tmp/
+*.deploy
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+dist/
+build/
+*.class
+
+# Environment and configuration files
+.env
+.env.*
+.settings/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Other
+*.bak
+*.swp
+~*
